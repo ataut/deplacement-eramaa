@@ -19,11 +19,10 @@ Current contents of subdirectories include:
 #### /bela-BLE/
 Code, test patches, and info on getting MIDI over Bluetooth LE running on the Bela. Link to Nathan Adam's repository for the ble_midi Linux daemon he developed.
 
-#### /deplacement-score/
 The musical score for the piece, as well as sketches 
 
 #### /documentation/
-This folder contains links to video and audio recordings of the piece, as well as additional information in the form of diagrams, images, and texts.
+This folder contains a folder with the score and sketches, as well as links to video and audio recordings of the piece, as well as additional information in the form of diagrams, images, and texts.
 
 #### /pd/
 The [PD](https://puredata.info/) patches ready to load onto Bela
