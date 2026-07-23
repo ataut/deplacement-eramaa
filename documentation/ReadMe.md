@@ -10,7 +10,7 @@
 
 
 #### Dossier
-The file, "Tanaka Eramaa Deplacement.pdf" provides programme notes for the piece, a stage diagram and photos of EMG electrode placement, the EAVI EMG board, and the Bela Pepper in a Eurorack modular synth rack
+The file, ["Tanaka Eramaa Deplacement.pdf"](https://github.com/ataut/deplacement-eramaa/blob/main/documentation/Tanaka%20Eramaa%20Deplacement.pdf) provides programme notes for the piece, a stage diagram and photos of EMG electrode placement, the EAVI EMG board, and the Bela Pepper in a Eurorack modular synth rack
 
 #### Audio recording 
 The recorded release of the piece on the Modulisme label on Bandcamp.
