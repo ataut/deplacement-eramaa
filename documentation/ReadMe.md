@@ -15,7 +15,7 @@ The file, "Tanaka Eramaa Deplacement.pdf" provides programme notes for the piece
 #### Audio recording 
 The recorded release of the piece on the Modulisme label on Bandcamp.
 
-[modulisme.bandcamp.com/track/atau-tanaka-deplacement] (https://modulisme.bandcamp.com/track/atau-tanaka-deplacement)
+[modulisme.bandcamp.com/track/atau-tanaka-deplacement](https://modulisme.bandcamp.com/track/atau-tanaka-deplacement)
 
 #### Video
 Video documentation of the piece, in concert in Brussels 
