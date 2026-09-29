@@ -1,0 +1,22 @@
+#N canvas 535 501 498 545 10;
+#X obj 74 98 loadbang;
+#X obj 174 289 outlet;
+#X obj 74 121 list append \$2;
+#X obj 75 144 list trim;
+#X obj 48 100 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 74 166 route 0;
+#X text 17 14 optarg;
+#X obj 73 239 list append \$1;
+#X obj 68 272 list trim;
+#X text 60 324 xjimmies lib. z. settel 2012;
+#X text 17 34 arg1: default value <float or sym>;
+#X text 17 47 arg2: optional arg <float or sym>;
+#X connect 0 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 4 0 2 0;
+#X connect 5 0 7 0;
+#X connect 5 1 1 0;
+#X connect 7 0 8 0;
+#X connect 8 0 1 0;

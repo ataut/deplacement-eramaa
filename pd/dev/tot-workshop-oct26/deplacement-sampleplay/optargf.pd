@@ -1,0 +1,8 @@
+#N canvas 916 226 405 306 10;
+#X text 7 4 optargf;
+#X text 7 24 arg1: default val;
+#X text 7 37 arg2: optional arg (float);
+#X obj 59 125 outlet;
+#X text 11 170 xjimmies lib. z. settel/jm dumas 2003-2007;
+#X obj 59 81 optarg \$1 \$2;
+#X connect 5 0 3 0;
