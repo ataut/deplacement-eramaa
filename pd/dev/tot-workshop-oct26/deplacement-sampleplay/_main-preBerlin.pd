@@ -1,4 +1,4 @@
-#N canvas 693 114 1042 539 12;
+#N canvas 428 114 1042 539 12;
 #X declare -path .;
 #X declare -path ./sounds/;
 #N canvas 0 37 588 274 LICENSE 0;
@@ -1493,6 +1493,8 @@
 #X connect 59 0 58 0;
 #X connect 60 0 44 0;
 #X connect 61 0 44 1;
+#X connect 63 0 56 0;
+#X connect 63 0 57 0;
 #X connect 67 0 68 0;
 #X connect 69 0 35 0;
 #X connect 71 0 73 0;
@@ -1500,8 +1502,6 @@
 #X connect 75 0 35 1;
 #X connect 75 1 35 2;
 #X connect 75 2 35 3;
-#X connect 77 0 56 0;
-#X connect 77 0 57 0;
 #X connect 77 1 83 0;
 #X connect 77 2 84 0;
 #X connect 82 0 77 0;
