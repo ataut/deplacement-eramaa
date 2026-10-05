@@ -1,4 +1,4 @@
-#N canvas 757 397 713 278 12;
+#N canvas 748 629 713 278 12;
 #N canvas 63 388 932 401 sendall 0;
 #X obj 26 17 r sendall;
 #X obj 26 41 route density metro freeze stretch stretchvar pos posvar dur durvar transp transpvar pitchquant, f 96;
@@ -98,12 +98,6 @@
 #X connect 1 0 3 0;
 #X connect 1 0 4 0;
 #X connect 1 0 5 0;
-#X connect 1 0 6 0;
-#X connect 1 0 10 0;
-#X connect 1 0 11 0;
-#X connect 1 0 7 0;
-#X connect 1 0 8 0;
-#X connect 1 0 9 0;
 #X restore 333 125 pd slap;
 #X obj 411 101 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #N canvas 20 396 918 484 figure 0;
@@ -932,6 +926,19 @@
 #X connect 1 0 4 0;
 #X connect 1 0 5 0;
 #X restore 529 190 pd basics;
+#X obj 447 192 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#N canvas 245 301 918 484 drone3 0;
+#X obj 206 9 inlet;
+#X obj 206 33 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X text 276 34 for sample 2 specifically;
+#X msg 39 94 \; doublebuf1-density 3 \; doublebuf1-metro 0 \; doublebuf1-freeze 1 \; doublebuf1-stretch 2 \; doublebuf1-stretchvar 0 \; doublebuf1-pos 1000 \; doublebuf1-posvar 50 \; doublebuf1-dur 2000 \; doublebuf1-durvar 0 \; doublebuf1-transp 600 \; doublebuf1-transpvar 100 \; doublebuf1-pitchquant 0 \;;
+#X msg 347 137 \; map1 send symbol doublebuf1-postvar \; map1 min 0 \; map1 max 2000 \; map1 curve 1 \; map1 send2 symbol doublebuf1-dur \; map1 min2 2000 \; map1 max2 200 \; map1 curve2 1 \;;
+#X msg 401 329 \; map2 send symbol cloudvol \; map2 min 0 \; map2 max 1 \; map2 curve 1.9 \;;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 0 4 0;
+#X connect 1 0 5 0;
+#X restore 446 221 pd drone3;
 #X connect 3 0 2 0;
 #X connect 4 0 5 0;
 #X connect 6 0 7 0;
@@ -943,3 +950,4 @@
 #X connect 15 2 6 0;
 #X connect 18 0 17 0;
 #X connect 19 0 20 0;
+#X connect 21 0 22 0;
