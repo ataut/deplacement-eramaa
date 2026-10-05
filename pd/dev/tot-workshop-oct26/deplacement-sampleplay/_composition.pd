@@ -1,4 +1,4 @@
-#N canvas 757 397 713 278 12;
+#N canvas -993 738 713 278 12;
 #N canvas 63 388 932 401 sendall 0;
 #X obj 26 17 r sendall;
 #X obj 26 41 route density metro freeze stretch stretchvar pos posvar dur durvar transp transpvar pitchquant, f 96;
@@ -58,7 +58,7 @@
 #X text 592 67 C# -9dB return to drone;
 #X restore 991 349 pd more-examples;
 #X restore 133 14 pd template;
-#N canvas 36 444 918 484 drone 0;
+#N canvas -1181 810 918 484 drone 0;
 #X obj 206 9 inlet;
 #X obj 206 33 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 268 12 then increase density add posvar;
@@ -78,12 +78,6 @@
 #X connect 1 0 3 0;
 #X connect 1 0 13 0;
 #X connect 1 0 14 0;
-#X connect 1 0 6 0;
-#X connect 1 0 7 0;
-#X connect 1 0 12 0;
-#X connect 1 0 8 0;
-#X connect 1 0 9 0;
-#X connect 1 0 10 0;
 #X restore 262 125 pd drone;
 #X obj 262 101 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 333 101 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
