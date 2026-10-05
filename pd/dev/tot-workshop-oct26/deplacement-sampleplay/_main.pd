@@ -1676,7 +1676,7 @@
 #X connect 10 0 8 0;
 #X coords 0 547 1 546 85 60 0;
 #X restore 951 140 pd oscinmin;
-#N canvas 63 95 673 692 oscin 0;
+#N canvas 63 95 673 692 oscin 1;
 #X obj 58 94 netreceive -u -b;
 #X obj 58 127 oscparse;
 #X obj 58 160 list trim;
@@ -1775,6 +1775,8 @@
 #X connect 10 0 8 0;
 #X connect 11 0 4 0;
 #X restore 934 233 pd oscouttest;
+#X obj 814 292 print osc-r;
+#X obj 826 262 print osc-pz;
 #X connect 3 0 2 0;
 #X connect 4 0 39 5;
 #X connect 5 0 39 6;
@@ -1827,11 +1829,13 @@
 #X connect 83 0 99 0;
 #X connect 87 0 86 2;
 #X connect 87 0 35 4;
+#X connect 87 0 108 0;
 #X connect 88 0 93 0;
 #X connect 88 0 89 0;
 #X connect 89 0 100 3;
 #X connect 90 0 100 2;
 #X connect 93 0 35 5;
+#X connect 93 0 109 0;
 #X connect 96 0 87 0;
 #X connect 96 1 94 0;
 #X connect 96 1 88 0;
