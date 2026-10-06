@@ -156,8 +156,8 @@
 #X text 131 353 | | | | | | | | | |, f 2;
 #X text 39 499 Buffer contains two copies of 2500ms, f 20;
 #X text 124 145 start second recording half buffer in, f 22;
-#X text 671 495 for ERAMAA TRIO 2024;
-#X text 671 519 Atau Tanaka;
+#X text 779 452 for ERAMAA TRIO 2024;
+#X text 779 476 Atau Tanaka;
 #X obj 36 282 tabwrite~ doublebuf1;
 #X obj 180 282 tabwrite~ doublebuf1;
 #X obj 183 28 tgl 19 1 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -172,7 +172,7 @@
 #X coords 0 1 220499 -1 200 140 1 0 0;
 #X restore 242 356 graph;
 #X text 336 353 | | | | | | | | | |, f 2;
-#X text 671 471 DEPLACEMENT for EMG and CHAMBER TRIO -- STEREO VERSION;
+#X text 779 428 DEPLACEMENT for EMG and CHAMBER TRIO -- STEREO VERSION;
 #N canvas 92 129 465 429 alternator4 0;
 #X obj 35 43 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 98 48 10 0 0 0 - - - 0;
@@ -497,7 +497,7 @@
 #X text 19 46 Granular cloud CLONE generator;
 #X text 20 102 granular engine plays one grain at a time at density \, overflowing to next available grain when busy \, uses clone object to instantiate grains, f 77;
 #X text 20 23 BTMIDID BLE MIDI by Nathan Adams;
-#X restore 831 496 pd credits;
+#X restore 939 453 pd credits;
 #X text 829 57 Knob 2 (1) : EMG gain 2 (1-20x);
 #X text 829 34 Knob 1 (0) : EMG gain 1 (1-20x);
 #N canvas 50 66 1187 420 cuelist 0;
@@ -1486,6 +1486,8 @@
 #X coords 0 469 1 468 85 60 0;
 #X restore 738 63 pd emg-osc;
 #X text 907 123 send to 192.168.1.101 30282;
+#X text 507 468 MONO out;
+#X text 633 468 DRY ADC out;
 #X connect 3 0 2 0;
 #X connect 5 0 39 5;
 #X connect 6 0 39 6;
@@ -1523,6 +1525,7 @@
 #X connect 51 0 60 0;
 #X connect 53 0 59 0;
 #X connect 53 0 60 0;
+#X connect 53 0 4 1;
 #X connect 61 0 75 0;
 #X connect 62 0 86 0;
 #X connect 63 0 86 1;
@@ -1535,7 +1538,7 @@
 #X connect 72 0 66 0;
 #X connect 73 0 67 0;
 #X connect 74 0 4 0;
-#X connect 74 1 4 1;
+#X connect 74 1 4 0;
 #X connect 76 0 36 0;
 #X connect 78 0 79 0;
 #X connect 83 0 36 1;
